@@ -4,7 +4,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class Exercicio1 {
+public class Exercicio01 {
 
     public static void main(String[] args) {
         int num1, num2, produto;

@@ -7,7 +7,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class Exercicio2 {
+public class Exercicio02 {
 
     public static void main(String[] args) {
         double base, expoente, resultado;
