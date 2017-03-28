@@ -21,39 +21,36 @@ public class Exercicio18 {
         System.out.print("N3: ");
         int n3 = console.nextInt();
 
-        /*Processamento*/
+        /*Processamento (Ordenando os numeros em ordem descrescente)*/
         int A, B, C;
         if (n1 > n2 && n1 > n3) {
             A = n1;
-            System.out.println(A);
-        } else if (n2 > n1 && n2 > n3) {
-            A = n2;
-            System.out.println(A);
-        } else if (n3 > n1 && n3 > n2) {
-            A = n3;
-            System.out.println(A);
+           if (n2>n3){
+               B=n2; C=n3;
+           }else{
+           B=n3; C=n2;
+           }
+        } 
+        
+        else if (n2>n1 && n2>n3){
+            A=n2;
+            if(n1>n3){
+                B=n1;C=n3
+            }
+            else{
+                B=n3;C=n1;
+            }
         }
-
-        if (n1 < n2 && n1 > n3) {
-            B = n1;
-            System.out.println(B);
-        } else if (n2 < n1 && n2 > n3) {
-            B = n2;
-            System.out.println(B);
-        } else if (n3 < n1 && n3 > n2) {
-            B = n3;
-            System.out.println(B);
-        }
-
-        if (n1 < n2 && n1 < n3) {
-            C = n1;
-            System.out.println(C);
-        } else if (n2 < n1 && n2 < n3) {
-            C = n2;
-            System.out.println(C);
-        } else if (n3 < n1 && n3 < 2) {
-            C = n3;
-            System.out.println(C);
+        else if(n3>n1 && n3>n2){
+            A=n3;
+            if(n2>n1){
+                B=n2;C=n1;
+            }
+            else{
+                B=n1;C=n2;
+            
+            }
+            
         }
     }
 }
