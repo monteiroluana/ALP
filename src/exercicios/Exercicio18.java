@@ -25,12 +25,14 @@ public class Exercicio18 {
         /*Todos os lados iguais*/
         if (n1 == n2 && n2 == n3) {
             System.out.println("Triangulo Equilátero");
-        /*Se pelo menos dois numero forem iguais*/
-        } if (n1 == n2 || n2 == n3 || n3 == n1) {
+            /*Se pelo menos dois números forem iguais*/
+        }
+        if (n1 == n2 || n2 == n3 || n3 == n1) {
             System.out.println("Triangulo Isosceles");
-        
-        /*Processamento (Ordenando os numeros em ordem descrescente)*/
-        } if (n1 > n2 && n1 > n3) {
+
+            /*Processamento (Ordenando os numeros em ordem descrescente)*/
+        }
+        if (n1 > n2 && n1 > n3) {
             A = n1;
             if (n2 > n3) {
                 B = n2;
@@ -46,11 +48,14 @@ public class Exercicio18 {
 
             if (nTriangulo) {
                 System.out.println("Não forma um triangulo");
-            } if (tRetangulo) {
+            }
+            if (tRetangulo) {
                 System.out.println("Triangulo Retangulo");
-            } if (tObtusangulo) {
+            }
+            if (tObtusangulo) {
                 System.out.println("Triangulo Obtusangulo");
-            } if (tAcutangulo) {
+            }
+            if (tAcutangulo) {
                 System.out.println("Triangulo Actangulo");
             }
 
@@ -70,11 +75,14 @@ public class Exercicio18 {
 
             if (nTriangulo) {
                 System.out.println("Não forma um triangulo");
-            } if (tRetangulo) {
+            }
+            if (tRetangulo) {
                 System.out.println("Triangulo Retangulo");
-            } if (tObtusangulo) {
+            }
+            if (tObtusangulo) {
                 System.out.println("Triangulo Obtusangulo");
-            } if (tAcutangulo) {
+            }
+            if (tAcutangulo) {
                 System.out.println("Triangulo Actangulo");
             }
 
@@ -86,7 +94,6 @@ public class Exercicio18 {
             } else {
                 B = n1;
                 C = n2;
-
             }
             boolean nTriangulo = (A >= B + C);
             boolean tRetangulo = (A * A == B * B + C * C);
@@ -95,11 +102,14 @@ public class Exercicio18 {
 
             if (nTriangulo) {
                 System.out.println("Não forma um triangulo");
-            } if (tRetangulo) {
+            }
+            if (tRetangulo) {
                 System.out.println("Triangulo Retangulo");
-            } if (tObtusangulo) {
+            }
+            if (tObtusangulo) {
                 System.out.println("Triangulo Obtusangulo");
-            } if (tAcutangulo) {
+            }
+            if (tAcutangulo) {
                 System.out.println("Triangulo Actangulo");
             }
 
