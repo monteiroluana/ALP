@@ -15,15 +15,28 @@ public class Exercicio10 {
         double Num1 = Double.parseDouble(JOptionPane.showInputDialog("Insira o 1º número"));
         String operador = JOptionPane.showInputDialog("Escolha um operador ( +  -  *  / )");
         double Num2 = Double.parseDouble(JOptionPane.showInputDialog("Insira o 2º número"));
-    
-    switch (operador){
-        case "+": double soma = Num1+Num2; JOptionPane.showMessageDialog(null,soma);break;
-        case "-": double subtracao = Num1+Num2; JOptionPane.showMessageDialog(null,subtracao);break;
-        case "*": double multiplicacao = Num1+Num2; JOptionPane.showMessageDialog(null,multiplicacao);break;
-        case "/": double divisao = Num1+Num2; JOptionPane.showMessageDialog(null,divisao);break;
-        default:JOptionPane.showMessageDialog(null,"Operador inválido");
+
+        switch (operador) {
+            case "+":
+                double soma = Num1 + Num2;
+                JOptionPane.showMessageDialog(null, soma);
+                break;
+            case "-":
+                double subtracao = Num1 + Num2;
+                JOptionPane.showMessageDialog(null, subtracao);
+                break;
+            case "*":
+                double multiplicacao = Num1 + Num2;
+                JOptionPane.showMessageDialog(null, multiplicacao);
+                break;
+            case "/":
+                double divisao = Num1 + Num2;
+                JOptionPane.showMessageDialog(null, divisao);
+                break;
+            default:
+                JOptionPane.showMessageDialog(null, "Operador inválido");
+        }
+
     }
-    
-    }
-    
+
 }
