@@ -37,7 +37,7 @@ public class Exercicio09 {
         int n9 = Integer.parseInt(cpf.substring(8, 9));
         int n10 = Integer.parseInt(cpf.substring(9, 10));
         int n11 = Integer.parseInt(cpf.substring(10, 11));
-
+        
         /*Passo 1*/
         int mult1 = n1 * 10;
         int mult2 = n2 * 9;
