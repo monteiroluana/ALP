@@ -4,7 +4,7 @@ Dados dois números, verificar se a divisão do primeiro número pelo
 segundo é exata (o resto da divisão deve ser igual a 0). Se for, o algoritmo
 deve imprimir a mensagem “A divisão de (número1) por (número 2) é exata”.
  */
-package alp_2;
+package alp_2_Decisao;
 //@Monteiro
 
 import java.util.Scanner;

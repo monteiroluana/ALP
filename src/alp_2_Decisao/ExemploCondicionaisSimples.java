@@ -1,7 +1,7 @@
 /*27_03_2017
 1ª aula de condicional
  */
-package alp_2;
+package alp_2_Decisao;
 
 import java.util.Scanner;
 

@@ -3,7 +3,7 @@
 Dado um número, verificar se ele é maior que 100. Se for, o 
 algoritmo deve somar 150 a esse número. No final, imprimir o resultado da soma.
 */
-package alp_2;
+package alp_2_Decisao;
 //@Monteiro
 
 import java.util.Scanner;

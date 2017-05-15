@@ -3,7 +3,7 @@
 Calcular a conta de consumo de energia elétrica
 de um consumidor, dado o kWh consumido
  */
-package alp_2;
+package alp_2_Decisao;
 //@Monteiro
 
 import java.util.Scanner;

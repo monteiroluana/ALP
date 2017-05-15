@@ -1,5 +1,5 @@
 //  20/03/2017
-package alp_2;
+package alp_2_Decisao;
 
 import java.util.Scanner;
 

@@ -6,7 +6,7 @@ obesidade é determinado pelo índice da massa
 corpórea (Massa = Peso / Altura2 ) através da
 tabela abaixo:
  */
-package alp_2;
+package alp_2_Decisao;
 //@Monteiro
 
 import java.util.Scanner;

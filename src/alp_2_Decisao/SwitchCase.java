@@ -2,7 +2,7 @@
 03/04/17
 Primeira aula com Switch Case
  */
-package alp_2;
+package alp_2_Decisao;
 //@Monteiro
 
 import java.util.Scanner;
